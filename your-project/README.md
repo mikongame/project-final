@@ -1,9 +1,9 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Title of My Project
-*[Your Name]*
+# People Analytics
+*Miguel García Melgar*
 
-*[Your Cohort, Campus & Date]*
+*Data Analytics Part-Time, Barcelona, Dec19 *
 
 ## Content
 - [Project Description](#project-description)
@@ -19,7 +19,9 @@
 - [Links](#links)
 
 ## Project Description
-Write a short description of your project: 3-5 sentences about what your project is about, why you chose this topic (if relevant), and what you are trying to show.
+No consigo datos para mi idea inicial, de modo que estoy estudiando otros datos de HR que he encontrado, con dos de ellos (IBM HR y HR Dataset) podría hacer un módelo de clasificación sobre la fecha de terminación, y cruzarlo con performance; además en el segundo podría asociarlo a costos y fuentes de reclutamiento.
+
+Tengo un tercero que asocia titles de perfiles con las skill mas habituales y viceversa. Aún no lo he descartado porque quiero darle más vueltas ha si podría hacer algo interesante con ello.
 
 ## Hypotheses / Questions
 * What data/business/research/personal question you would like to answer?
