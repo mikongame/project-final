@@ -19,9 +19,7 @@
 - [Links](#links)
 
 ## Project Description
-No consigo datos para mi idea inicial, de modo que estoy estudiando otros datos de HR que he encontrado, con dos de ellos (IBM HR y HR Dataset) podría hacer un módelo de clasificación sobre la fecha de terminación, y cruzarlo con performance; además en el segundo podría asociarlo a costos y fuentes de reclutamiento.
-
-Tengo un tercero que asocia titles de perfiles con las skill mas habituales y viceversa. Aún no lo he descartado porque quiero darle más vueltas ha si podría hacer algo interesante con ello.
+Creo que entrenaré un modelo para que prediga la puntuación de un test de personalidad en base a post en un blog. Una vez entrenado me gustaría testearlo con otros datos que estoy intentando reunir con un formulario que he creado y publicado en redes. Otros datos que podría usar si tuviera algun problema de cara al testeo son de datasets de HR que he encontrado, con dos de ellos (IBM HR y HR Dataset) podría hacer un módelo de clasificación sobre la fecha de terminación, y cruzarlo con performance; además en el segundo podría asociarlo a costos y fuentes de reclutamiento.
 
 ## Hypotheses / Questions
 * What data/business/research/personal question you would like to answer?
