@@ -19,19 +19,21 @@
 - [Links](#links)
 
 ## Project Description
-Creo que entrenaré un modelo para que prediga la puntuación de un test de personalidad en base a post en un blog. Una vez entrenado me gustaría testearlo con otros datos que estoy intentando reunir con un formulario que he creado y publicado en redes. Otros datos que podría usar si tuviera algun problema de cara al testeo son de datasets de HR que he encontrado, con dos de ellos (IBM HR y HR Dataset) podría hacer un módelo de clasificación sobre la fecha de terminación, y cruzarlo con performance; además en el segundo podría asociarlo a costos y fuentes de reclutamiento.
+In order to learn more on NLP while applaying its methods to psychological variables I have been working on this dataset from Kaggle, [(MBTI) Myers-Briggs Personality Type Dataset](https://www.kaggle.com/datasnaek/mbti-type) which holds information on a forum's users' posts and personalities using MBTI.
 
-## Hypotheses / Questions
-* What data/business/research/personal question you would like to answer?
-* What is the context for the question and the possible scientific or business application?
-* What are the hypotheses you would like to test in order to answer your question?  
-Frame your hypothesis with statistical/data languages (i.e. define Null and Alternative Hypothesis). You can use formulas if you want but that is not required.
+## Objective
+The IT labour market is getting more and more competitive, as there is more demmand than offer of proffesionals. And of course, eveywane wants the best of the best for their company.
+
+Finding the best talent and ensuring they culturally fit in their organizations means a lot of time, effort and money to invest in material, softwere and personality, intelligence and competency measures for Recruitment Teams; even when they have increasingly amount sof candidates' information.
+
+I want to shorten recruitment times and costs in psichometric tests.
+
+So starting with personality tests I pretend to train a model to use text we get from candidates (social networks, cover letters, CV, etc).
+
+To sum up, in this project I want to train a **classification model using text data features and meta-features from each user comments, messages and posts to predict their personalities**.
 
 ## Dataset
-* Where did you get your data? If you downloaded a dataset (either public or private), describe where you downloaded it and include the command to load the dataset.
-* Did you build your own datset? If so, did you use an API or a web scraper? PRovide the relevant scripts in your repo.
-* For all types of datasets, provide a description of the size, complexity, and data types included in your dataset, as well as a schema of the tables if necessary.
-* If the question cannot be answered with the available data, why not? What data would you need to answer it better?
+I have been working on this dataset from Kaggle, [(MBTI) Myers-Briggs Personality Type Dataset](https://www.kaggle.com/datasnaek/mbti-type), that holds data collected through the [PersonalityCafe forum](http://personalitycafe.com/forum/), as it provides a large selection of people and their MBTI personality type, as well as what they have written. 
 
 ## Cleaning
 Describe your full process of data wrangling and cleaning. Document why you chose to fill missing values, extract outliers, or create the variables you did as well as your reasoning behind the process.
@@ -43,8 +45,11 @@ Describe your full process of data wrangling and cleaning. Document why you chos
 * If you used Machine Learning in your final project, describe your feature selection process.
 
 ## Model Training and Evaluation
+### Machine Learning Models Evaluation
 *Include this section only if you chose to include ML in your project.*
 * Describe how you trained your model, the results you obtained, and how you evaluated those results.
+### Deep Learning Models Evluation
+### Fine tuning of the best model
 
 ## Conclusion
 * Summarize your results. What do they mean?
